@@ -110,6 +110,7 @@ Function Get-EnvPathList {
     return ,$pathList
 }
 
+# Add python to Path environment variable
 Function Add-EnvPath {
 Param (
 [string]$pathToAdd
